@@ -31,7 +31,8 @@
     "@angular-devkit/schematics": "^7.3.8"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
     "@types/jasmine": "^3.0.0",
