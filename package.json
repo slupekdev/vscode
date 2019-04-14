@@ -31,8 +31,7 @@
     "@angular-devkit/schematics": "^7.3.8"
   },
   "publishConfig": {
-    "access": "public",
-    "registry": "http://localhost:4873"
+    "access": "public"
   },
   "devDependencies": {
     "@types/jasmine": "^3.0.0",
