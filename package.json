@@ -1,0 +1,44 @@
+{
+  "name": "@slupekdev/vscode",
+  "version": "0.0.1",
+  "description": "Add recommended extensions and configuration to an Angular CLI project",
+  "repository": "slupekdev/schematics-tests",
+  "bugs": {
+    "url": "https://github.com/slupekdev/vscode/issues"
+  },
+  "homepage": "https://github.com/slupekdev/vscode",
+  "main": "src/install/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "build:watch": "tsc -p tsconfig.json -watch",
+    "test": "yarn build && jasmine src/**/*_spec.js",
+    "test:watch": "yarn build:watch && jasmine src/**/*_spec.js",
+    "debug": "schematics .:ng-add\"",
+    "release": "np"
+  },
+  "keywords": [
+    "schematics",
+    "angular",
+    "angular cli",
+    "vscode",
+    "chrome debugging"
+  ],
+  "author": "SlupekDev",
+  "license": "MIT",
+  "schematics": "./src/collection.json",
+  "dependencies": {
+    "@angular-devkit/core": "^7.3.8",
+    "@angular-devkit/schematics": "^7.3.8"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://localhost:4873"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^3.0.0",
+    "@types/node": "^8.0.31",
+    "jasmine": "^3.0.0",
+    "np": "^4.0.2",
+    "typescript": "~3.2.2"
+  }
+}
