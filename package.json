@@ -1,8 +1,8 @@
 {
   "name": "@slupekdev/vscode",
-  "version": "0.0.2-1",
+  "version": "0.0.2-beta.7",
   "description": "Add recommended extensions and configuration to an Angular CLI project",
-  "repository": "slupekdev/schematics-tests",
+  "repository": "slupekdev/vscode",
   "bugs": {
     "url": "https://github.com/slupekdev/vscode/issues"
   },
@@ -38,7 +38,6 @@
     "@types/jasmine": "^3.0.0",
     "@types/node": "^8.0.31",
     "jasmine": "^3.0.0",
-    "np": "^4.0.2",
     "typescript": "~3.2.2"
   }
 }
