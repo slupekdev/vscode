@@ -1,6 +1,6 @@
 {
   "name": "@slupekdev/vscode",
-  "version": "0.0.2-2",
+  "version": "0.0.2-3",
   "description": "Add recommended extensions and configuration to an Angular CLI project",
   "repository": "slupekdev/schematics-tests",
   "bugs": {
