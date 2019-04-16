@@ -19,25 +19,29 @@ ng add @slupekdev/vscode
 ## Extensions Included
 * [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome) - Must have extension for Angular development. You can debug using chrome and add your breakpoints in VSCode. Tutorial on how to use can be found [on VSCode docs](https://code.visualstudio.com/docs/nodejs/angular-tutorial#_debugging-angular).
 
-* [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) - linter for the TypeScript language, help fixing error in TS code.
-  - Recommended settings: `"tslint.autoFixOnSave": true` (auto fix lint issues on file save)
+* [TSLint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin) - linter for the TypeScript language, help fixing error in TS code. By default auto fixing tslint errors on save is enabled.
 
 * [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template) - provides a rich editing experience for Angular templates, very useful when working on Angular HTML template.
 
-* [Angular v6 TypeScript Snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2) - Angular with TypeScript snippets.
+* [Angular 8 Snippets](https://marketplace.visualstudio.com/items?itemName=mikael.angular-beastcode) - Angular with TypeScript snippets.
 
-* [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) - The Material Icon Theme provides lots of icons based on Material Design for Visual Studio Code.
-
-* [Prettier - JavaScript formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) - format your Javascript / Typescript / CSS - specially for Angular, I recommend adding the following config in you users setting for VsCode. Recommended settings:
-  - `"prettier.singleQuote": true` (this helps when using auto import extension or the VSCode auto import functionality).
-  - `"prettier.tabWidth": 2` (angular lint uses 2 spaces as default indentation). With this setting, you can continue using tabs if it is your preference
-  - `"prettier.useTabs": false` (same as above)
+* [Vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-iconse) - provides lots of icons for Visual Studio Code.
 
 * [EditorConfig for VS Code](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig) - EditorConfig Support for Visual Studio Code.
 
 * [angular2-switcher](https://marketplace.visualstudio.com/items?itemName=infinity1207.angular2-switcher) - Easily navigate to typescript(.ts)|template(.html)|style(.scss/.sass/.less/.css) in angular projects.
   - `alt+o` (Windows) or `shift+alt+o` (macOS)
   - by default VSCode opens file not opened from file explorer in 'preview' mode. When using this extension, I also recommend the following setting: `workbench.editor.enablePreview": false`
+
+* [Auto Import](https://marketplace.visualstudio.com/items?itemName=steoates.autoimport) - Automatically finds, parses and provides code actions and code completion for all available imports.
+
+* [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag) - Auto rename paired HTML/XML tag.
+
+* [Bracket Pair Colorizer](https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer) - allows matching brackets to be identified with colours.
+
+* [Sass Lint](https://marketplace.visualstudio.com/items?itemName=glen-84.sass-lint) - integrates the sass-lint linter into VS Code.
+
+* [Sort Typescript Imports](https://marketplace.visualstudio.com/items?itemName=miclo.sort-typescript-imports) - integrates the sass-lint linter into VS Code.
 
 ## Debugging
 ### Prepare test app
